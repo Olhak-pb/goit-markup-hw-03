@@ -103,8 +103,7 @@ body {
 
 .main-info {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
     
 }
 
@@ -116,6 +115,11 @@ body {
     color: #fff;
     font-weight: 700;
     max-width: 496px;
+}
+
+.container-main {
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .service-button {
