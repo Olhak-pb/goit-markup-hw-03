@@ -117,7 +117,7 @@ body {
     max-width: 496px;
 }
 
-.container-main {
+.main-container {
     max-width: 496px;
     margin: 0 auto;
 }
@@ -137,11 +137,26 @@ body {
 }
 
 .description {
+    padding: 120px 0 120px;
+}
+
+.description-list {
+    display: flex;
+    gap: 24px;
+}
+
+.description-elements {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    margin-right: 24px;
+
+}
+.description-header {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
     
 }
 
