@@ -140,7 +140,7 @@ body {
     padding: 120px 0 120px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -149,7 +149,7 @@ body {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
-}
+} */
 
 .description-list {
     display: flex;
@@ -157,11 +157,11 @@ body {
 }
 
 .description-elements {
-    width: calc((100% - 72px) / 4);
     margin-right: 24px;
 
 }
 .description-header {
+    width: calc((100% - 72px) / 4);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
