@@ -162,7 +162,7 @@ body {
 }
 
 .description-elements {
-    width: calc((100% -72px) / 3);
+    width: calc((100% - 72px) / 3);
     margin-right: 24px;
     
 }
