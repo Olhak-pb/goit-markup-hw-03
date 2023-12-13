@@ -104,9 +104,8 @@ body {
 }
 
 .main-info {
+    padding: 188px 0 188px;
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .main-header {
