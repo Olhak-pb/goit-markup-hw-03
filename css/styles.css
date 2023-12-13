@@ -105,7 +105,7 @@ body {
 
 .main-info {
     background-color: #2E2F42;
-    padding: 188px 0;
+    padding: 188px, 0;
     
 }
 
@@ -142,16 +142,19 @@ body {
     padding: 120px 0 120px;
 }
 
-/* .visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
-} */
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .description-list {
     display: flex;
@@ -202,11 +205,11 @@ body {
 }
 .team-members {
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-img {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px, 0px, 4px, 4px;
 }
 
 .member-div {
@@ -231,6 +234,9 @@ body {
     text-align: center;
 }
 
+.portfolio {
+    padding: 120px 0 120px 0;
+}
 .portfolio-header {
     font-size: 36px;
     line-height: 1.11;
@@ -238,14 +244,33 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-products {
+    border-radius: 0px, 0px, 4px, 4px;
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .product-name {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .product-description {
