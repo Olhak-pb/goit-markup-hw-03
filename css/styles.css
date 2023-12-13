@@ -36,6 +36,7 @@ body {
 
 
 .full-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -44,7 +45,6 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -161,8 +161,9 @@ body {
 }
 
 .description-elements {
-    margin-right: 24px;
     width: calc((100% - 72px) / 4);
+    margin-right: 24px;
+    
 }
 
 .description-header {
@@ -255,8 +256,8 @@ body {
 }
 
 .portfolio-products {
-    border-radius: 0px, 0px, 4px, 4px;
     width: calc((100% - 48px) / 3);
+    border-radius: 0px, 0px, 4px, 4px;
 }
 
 .portfolio-div {
@@ -293,7 +294,7 @@ body {
 }
 
 .logo-second-footer {
-    color: #f4f4fd;
     display: inline-block;
+    color: #f4f4fd;
     margin-bottom: 16px;
 }
