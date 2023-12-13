@@ -161,8 +161,8 @@ body {
 }
 
 .description-elements {
-    margin-right: 24px;
     width: calc((100% - 72px) / 4);
+    margin-right: 24px;
 }
 .description-header {
     font-size: 20px;
