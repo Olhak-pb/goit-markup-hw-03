@@ -105,8 +105,8 @@ body {
 
 .main-info {
     background-color: #2E2F42;
-    padding: 188px, 0;
-    
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-header {
@@ -163,10 +163,9 @@ body {
 
 .description-elements {
     margin-right: 24px;
-
+    width: calc((100% - 72px) / 4);
 }
 .description-header {
-    width: calc((100% - 72px) / 4);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -206,11 +205,12 @@ body {
 .team-members {
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
-}
-
-.team-img {
     border-radius: 0px, 0px, 4px, 4px;
 }
+
+/* .team-img {
+    
+} */
 
 .member-div {
     padding: 32px 0;
