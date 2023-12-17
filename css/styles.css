@@ -301,38 +301,22 @@ body {
 
 /* footer */
 .footer {
-   background-color: #2e2f42;
-   padding: 100px 0;
+    background-color: #2e2f42;
+    padding: 100px 0;
 }
 
-.footer > div a:first-child {
+.footer>div a:first-child {
     display: inline-block;
     margin-bottom: 16px;
 }
 
 .footer-description {
     line-height: 1.5;
-    color:#F4F4FD;
+    color: #F4F4FD;
     letter-spacing: 0.02em;
-    max-width: 264px;
+    max-width: 264px
 }
 
 .logo-second-footer {
     color: #f4f4fd;
-}
-
-.footer-container {
-    display: flex;
-}
-
-.description-container {
-    margin-right: 120px;
-}
-
-.sm-container {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFF;
 }
