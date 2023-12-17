@@ -46,13 +46,14 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header > div {
+.header-container {
     display: flex;
 }
 
 .navi {
     display: flex;
     align-items: center;
+    margin-right: 232px;
 }
 
 .full-logo {
@@ -74,6 +75,7 @@ body {
 .menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .link-navi {
@@ -103,6 +105,7 @@ body {
 .adress-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .contact {
     font-size: 16px;
@@ -127,6 +130,7 @@ body {
     letter-spacing: 0.02em;
     color: #fff;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .service-button {
@@ -143,6 +147,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 48px auto 0;
 }
 
 .service-button:hover, .service-button:focus {
@@ -165,6 +170,12 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .description-list {
@@ -288,6 +299,7 @@ body {
     color: #434455;
 }
 
+/* footer */
 .footer {
    background-color: #2e2f42;
    padding: 100px 0;
@@ -302,9 +314,25 @@ body {
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
-    max-width: 264px
+    max-width: 264px;
 }
 
 .logo-second-footer {
     color: #f4f4fd;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.description-container {
+    margin-right: 120px;
+}
+
+.sm-container {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFF;
 }
